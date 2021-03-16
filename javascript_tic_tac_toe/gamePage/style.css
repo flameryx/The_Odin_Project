@@ -1,0 +1,140 @@
+html {
+  font-family: Arial;
+}
+
+.symbol-img {
+  width: 30px;
+}
+
+#background {
+  background-color: wheat;
+  width: 100%;
+  height: 680px;
+  z-index: -1;
+}
+
+#winner-text {
+  position: absolute;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  top: 480px;
+}
+
+#tie-text {
+  position: absolute;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  top: 480px;
+}
+
+#reset {
+  position: absolute;
+  width: 150px;
+  height: 67px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  top: 540px;
+  font-size: 30px;
+  font-weight: 800;
+  background-color: black;
+  color: Gold;
+  border: 2px solid Gold;
+}
+
+#table-border {
+  position: absolute;
+  height: 300px;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  border: 4px solid gold;
+  top: 149px;
+  z-index: 0;
+}
+
+#x-win-border {
+  position: absolute;
+  height: 300px;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  border: 4px solid FireBrick;
+  z-index: 10;
+  top: 149px;
+}
+
+#o-win-border {
+  position: absolute;
+  height: 300px;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  border: 4px solid DodgerBlue;
+  z-index: 10;
+  top: 149px;
+}
+
+#transparent-panel {
+  position: absolute;
+  height: 300px;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  /*border: 3px solid yellow;*/
+  z-index: 10;
+  top: 150px;
+}
+
+h1 {
+  font-family: arial;
+  text-align: center;
+  font-weight: 800;
+  background-color: black;
+  color: gold;
+  margin-bottom: 6px;
+  margin-top: 6px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+table {
+  position: relative;
+  top: 100px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+  height: 300px;
+  width: 300px;
+  z-index: 1;
+}
+
+td {
+  border: 10px solid black;
+  width: 40px;
+  height: 40px;
+
+}

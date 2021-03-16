@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <h1>Tic Tac Toe</h1>
+
+    <div id="background">
+      <table>
+        <tr id="row1">
+          <td onclick="Game.playerMove(0)"></td>
+          <td onclick="Game.playerMove(1)"></td>
+          <td onclick="Game.playerMove(2)"></td>
+        </tr>
+        <tr id="row2">
+          <td onclick="Game.playerMove(3)"></td>
+          <td onclick="Game.playerMove(4)"></td>
+          <td onclick="Game.playerMove(5)"></td>
+        </tr>
+        <tr id="row3">
+          <td onclick="Game.playerMove(6)"></td>
+          <td onclick="Game.playerMove(7)"></td>
+          <td onclick="Game.playerMove(8)"></td>
+        </tr>
+      </table>
+    </div>
+
+    <button id="reset" onclick="location.href = 'gamePage.html'">Restart</button>
+    <script type="module" src="../script.js"></script>
+    <div id="table-border"></div>
+
+  </body>
+</html>

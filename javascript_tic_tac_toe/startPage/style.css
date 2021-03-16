@@ -1,0 +1,59 @@
+html {
+  font-family: Arial;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 800;
+  background-color: black;
+  color: Gold;
+  margin-bottom: 6px;
+  margin-top: 6px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+table {
+  width: 100%;
+  height: 680px;
+  text-align: center;
+  border-collapse: collapse;
+  font-weight: 800;
+  font-size: 28px;
+}
+
+form input {
+  font-size: 18px;
+  text-align: center;
+}
+
+button {
+  position: absolute;
+  width: 150px;
+  height: 67px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  top: 540px;
+  font-size: 30px;
+  font-weight: 800;
+  background-color: black;
+  color: Gold;
+  border: 2px solid Gold;
+}
+
+#x-symbol, #o-symbol {
+  width: 200px;
+}
+
+#player1 {
+  background-color: FireBrick;
+  padding-bottom: 115px;
+}
+
+#player2 {
+  background-color: DodgerBlue;
+  padding-bottom: 130px;
+}

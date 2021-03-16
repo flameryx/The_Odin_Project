@@ -1,0 +1,246 @@
+html {
+  font-family: arial, sans-serif;
+}
+
+header {
+  border-bottom: 1px #e6e6e6 solid;
+}
+
+ol {
+  margin-top: -5px;
+  margin-left: -20px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+h3 {
+  font-weight: normal;
+  font-size: 20px;
+}
+
+p {
+  color: rgb(84, 84, 84);
+  font-size: 14px;
+  line-height: 22px;
+}
+
+nav {
+  margin-top: 28px;
+  margin-left: 117px;
+  margin-bottom: 15px;
+}
+
+footer {
+  background-color: #f2f2f2;
+  margin-left: -170px;
+  border-top: 1px #e6e6e6 solid;
+  padding-left: 175px;
+  padding-bottom: 10px;
+}
+
+.logo-n-search {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.header {
+  display: inline;
+  padding-right: 10px;
+}
+
+.grey-links {
+  color: #666666;
+  text-decoration: none;
+}
+
+.header-links {
+  display: inline;
+  line-height: 16px;
+  font-size: 13px;
+  padding-right: 25px;
+}
+
+.result-links {
+  margin-bottom: 3px;
+  padding-right: 10px;
+  padding-bottom: 0;
+  color: rgb(26, 13, 171);
+  font-size: 20px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.translate:hover,
+.result-links:hover {
+  text-decoration: underline;
+}
+.footer-links {
+  display: inline;
+  font-size: 13px;
+  line-height: 40px;
+  margin-right: 20px;
+}
+.https {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  color: rgb(0, 102, 33);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.translate {
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.published {
+  display: inline;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.description {
+  margin-top: 0;
+  margin-bottom: 30px;
+  padding-top: 0;
+  color: rgb(84, 84, 84);
+  font-size: 14px;
+}
+
+.links {
+  color: rgb(26, 13, 171);
+  text-decoration: none;
+}
+
+.links:hover {
+  text-decoration: underline;
+}
+
+.header-links .grey-links:hover {
+  color: blue;
+}
+
+.footer-links .grey-links:hover {
+  color: black;
+}
+
+.table {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.row {
+  border: 1px #e6e6e6 solid;
+  margin-left: -15px;
+  padding-left: 15px;
+}
+
+.similar-searches {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+  list-style-type: none;
+  margin: 10px 30px 0 -40px;
+}
+
+.site-numbers {
+  display: inline;
+  margin-right: 8.5px;
+  font-size: 14px;
+}
+
+.num {
+  color: rgb(66, 133, 244);
+}
+
+#body {
+  margin-left: 160px;
+}
+
+#google-logo {
+  margin-top: 19px;
+  margin-left: 12px;
+  width: 92px;
+  height: 30px;
+  margin-right: 30px;
+  /*height is 33.824% of width*/
+}
+
+#search-bar {
+  margin-top: 15px;
+  margin-left: 5px;
+  border-radius: 25px;
+  width: 630px;
+  height: 38px;
+  font-size: 14px;
+}
+
+#blue-magni-glass {
+  position: absolute;
+  top: 26px;
+  left: 725px;
+  height: 38px;
+  width: 38px;
+}
+
+#google-apps {
+  position: absolute;
+  top: 36px;
+  right: 85px;
+  height: 25px;
+  width: 25px;
+}
+
+#gmail-r {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  height: 35px;
+  width: 35px;
+}
+
+#magni-glass {
+  width: 15px;
+  height: 15px;
+}
+
+#result1 {
+  margin-left: -15px;
+  padding-left: 15px;
+  border: 1px #e6e6e6 solid;
+  border-radius: 5px;
+}
+
+#nav, #extra-nav {
+  display: inline;
+}
+
+#ähnlich {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+#next-sites {
+  margin-top: 20px;
+  margin-left: 150px;
+  height:35px;
+  width: 308px;
+}
+
+#row-top {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+#row-bottom {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}

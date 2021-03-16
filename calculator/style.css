@@ -1,0 +1,64 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Arial;
+    color: white;
+}
+
+button {
+    font-size: 30px;
+    font-weight: bold;
+    width: 75px;
+    height: 75px;
+    border: 2px solid black;
+}
+
+#all_nums {
+    text-align: center;
+    margin: 65px auto;
+    border: 5px solid black;
+    width: 333px;
+    height: 420px;
+    padding-top: 15px;
+    background-color: white;
+}
+
+
+#clear {
+    font-size: 23px; 
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+
+#first_line,
+#second_line,
+#third_line,
+#fourth_line{
+    margin-top: 5px;
+}
+
+#display {
+    display: inline-block;
+    height: 75px;
+    width: 300px;
+    border: 2px solid black;
+    padding-right: 10px;
+    text-align: right;
+    font-size: 65px;
+    font-weight: bold;
+    font-family: arial;
+    background-color: #00ffd0;
+}
+
+.red_op {
+    background-color: #888886;
+}
+
+
+

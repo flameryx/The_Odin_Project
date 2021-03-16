@@ -1,0 +1,41 @@
+#grid_container {
+    margin: 100px auto;
+    display: grid;
+    grid-row-gap: 0;
+    grid-column-gap: 0;
+    width: 559px;
+    height: 559px;
+    border: 5px dashed red;
+    z-index: 10;
+    background-color: white;
+}
+
+.grid_square {
+    background-color: black;
+    border: 1px solid #60bb0c;
+    border-radius: 1px;
+    z-index: 10;
+}
+
+
+body {
+    text-align: center;
+    background-color: black;
+}
+
+button {
+    text-align: center;
+}
+
+.invisible {
+    visibility:hidden;
+}
+
+#hidden_img {
+    position: absolute;
+    width: 559px;
+    height: 559px;
+    margin: 0 auto;
+    z-index: 0;
+}
+ 
