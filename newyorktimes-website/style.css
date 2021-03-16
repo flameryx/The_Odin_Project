@@ -1,0 +1,57 @@
+
+
+.article-content, .article-title {
+  width: 600px;
+  margin: auto;
+}
+
+
+
+.article-head .main-img {
+  width: 1200px;
+  height: 775px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-img img {
+  width: 1200px;
+  height: 675px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-img p {
+  width: 900px;
+}
+
+.content {
+  font-size: 1.25rem;
+  font-family: nyt-imperial, georgia, 'times new roman', times,serif;
+  color: #333;
+  margin-bottom: 0.9375rem;
+  line-height: 1.875rem;
+  font-weight: 400;
+}
+
+.sub-title {
+  font-size: 20px;
+  line-height: 30px;
+  color: #333;
+  font-weight: 700;
+}
+
+.inflation-theory h5 {
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  font-weight: 700;
+  color: #000;
+  font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
+  margin-bottom: 2px;
+}
+
+.inflation-theory {
+  width: 120%;
+}
